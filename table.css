@@ -1,0 +1,72 @@
+/* Style général de la page */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.conteneur {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Style du Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Fusionne les bordures */
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Pour que les coins arrondis fonctionnent */
+}
+
+/* Style de l'entête */
+thead tr {
+    background-color: #191970; /* Ton bleu marine */
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Couleur alternée (Effet Zébré) */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Effet au survol de la souris */
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Style spécial pour la case Lucky Luke (colspan) */
+.famille {
+    font-style: italic;
+    color: #27ae60; /* Un vert sympa */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style du lien de retour */
+.bouton-retour {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #191970;
+    border: 1px solid #191970;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.bouton-retour:hover {
+    background-color: #191970;
+    color: white;
+}
